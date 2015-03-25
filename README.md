@@ -7,7 +7,7 @@
 <title> HNA Website</title>   
 <body>
     <h1 style="color:red">      
-        Cougars Homeworks Help
+        Cougars Homework Help
     </h1>
     <h2>
         Freshman
