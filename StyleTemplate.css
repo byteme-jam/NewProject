@@ -1,0 +1,16 @@
+ a:link {
+                color:black;
+                font-size:20px;
+                text-decoration: none;
+        }
+a:visited {
+                color: blueviolet
+}
+h1 {
+                color: maroon;
+}
+
+p {
+                color: black;
+                font-size: 20px;
+}
