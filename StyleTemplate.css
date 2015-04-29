@@ -6,16 +6,17 @@
                 font-weight: bold;
         }
 a:visited {
-                color: blueviolet
+                color: fuchsia;
 }
 h1 {
-                color: maroon;
+                color: fuchsia;
 }
 
 p {
-                color: black;
+                color: aquamarine;
                 font-size: 20px;
 }
 li {
         list-style: none;
 }
+
