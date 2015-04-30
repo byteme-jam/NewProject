@@ -1,12 +1,12 @@
  a:link {
-                color:black;
+                color:lemonchiffon;
                 font-size:35px;
                 text-decoration: none;
                 width: auto; 
                 font-weight: bold;
         }
 a:visited {
-                color: fuchsia;
+                color: lemonchiffon;
 }
 h1 {
                 color: antiquewhite;
@@ -14,7 +14,7 @@ h1 {
 
 p {
                 color: white;
-                font-size: 20px;
+                font-size: 35px;
 }
 li {
         list-style: none;
