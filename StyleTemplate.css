@@ -17,6 +17,7 @@ h1 {
 h2 {
                 color : black;
                 font-size: 35px;
+                font-family: fantasy;
 }
 
 p {
@@ -28,8 +29,10 @@ li {
 }
 
 #container {
-                 background-image: url(HNASeal.jpg);
-                 width: 598px;
-                height: 598px;
-                float: left;
+                 background-image: url(HNASeal.jpg); 
+                background-size: 598px 599px;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 1000px;
+                height: 600px;
 }
