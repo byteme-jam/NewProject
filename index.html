@@ -10,8 +10,12 @@
 </head>
 
 <style>
+#container {
+            background-image: url(seattle.jpg);
+            }
+    
 #header {
-            background-color:maroon;
+            background-color:darkgray;
             text-align:center;
             padding: 5px;
         }
@@ -21,52 +25,55 @@
         float:left;
         height: 100%;
         width: 15%;
+        padding border-left: 2px;
 }
-#section {
+#content {
             float:left;
             text-align: left; 
-            background-image: url(seattle.jpg);
             background-size: cover;
+            background-image: url(seattle.jpg);
             width: 85%;
             height: 528px;
-            
+            padding: inherit;
         }
     
- a:link    {color:paleturquoise; background-color:transparent; text-decoration:none;}
- a:visited {color: paleturquoise;}
+ a:link    {color:black; background-color:transparent; text-decoration:none;}
+ a:visited {color: black;}
+    
+    
 
 
 </style>
 
 <body>
-    <div id ="header">
+     <div id ="header">
         <h1>Cougars Homework Help</h1>
-    </div>
-    
-    <div id="nav">
-    <li> <a href= "Freshman.html"> Freshman</a>  
-    </li> <br>
-    <li> <a href= "Sophmore.html"> Sophmore</a>  
-    </li> <br>
-    <li> <a href= "Junior.html"> Junior</a>  
-    </li> <br>
-    <li> <a href= "Senior.html"> Senior</a>  
-    </li> <br>
-    <li> <a href= "Languages.html"> Languages</a>  
-    </li> <br>
-    <li> <a href= "APClasses.html"> AP Classes</a>  
-    </li> <br>
-    <li> <a href= "Resources.html"> Resources</a>  
-    </li> <br>
-    <li> <a href= "Rules.html"> Rules</a>  
-    </li> <br>
-    </div>
+     </div>
+    <div id="container">
+        <div id="nav">
+        <li> <a href= "Freshman.html"> Freshman</a>  
+        </li> <br>
+        <li> <a href= "Sophmore.html"> Sophmore</a>  
+        </li> <br>
+        <li> <a href= "Junior.html"> Junior</a>  
+        </li> <br>
+        <li> <a href= "Senior.html"> Senior</a>  
+        </li> <br>
+        <li> <a href= "Languages.html"> Languages</a>  
+        </li> <br>
+        <li> <a href= "APClasses.html"> AP Classes</a>  
+        </li> <br>
+        <li> <a href= "Resources.html"> Resources</a>  
+        </li> <br>
+        <li> <a href= "Rules.html"> Rules</a>  
+        </li> <br>
+        </div>
         
-    <div id="section">
-        <p>
-            This is a wesite where students can share studyguides, flashcards, notes, ect. It is designed not to encourage plagerism, but to offer help with homework. Students may find their designated class in which they can upload and gain information.
-        </p>
+        <div id="content">
+            <p>
+            This is a wesite where students can share studyguides, flashcards, notes, ect. It is designed not to encourage plagerism, but to offer help with homework and studying. Students may find their designated class in which they can upload and gain information.  
+            </p>
+        </div>
     </div>
 </body>
-    
 </html>
