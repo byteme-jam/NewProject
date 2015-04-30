@@ -1,22 +1,35 @@
  a:link {
-                color:lemonchiffon;
-                font-size:35px;
+                color:black;
+                font-size:30px;
                 text-decoration: none;
+                font-family: fantasy;
                 width: auto; 
-                font-weight: bold;
+            
         }
 a:visited {
-                color: lemonchiffon;
+                color: black;
 }
 h1 {
                 color: antiquewhite;
+                font-size: 40px;
+                font-family:fantasy;
+}
+h2 {
+                color : black;
+                font-size: 35px;
 }
 
 p {
                 color: white;
-                font-size: 35px;
+                font-size: 20px;
 }
 li {
         list-style: none;
 }
 
+#container {
+                 background-image: url(HNASeal.jpg);
+                 width: 598px;
+                height: 598px;
+                float: left;
+}
